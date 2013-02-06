@@ -9,7 +9,7 @@
         $(function(){
             $.ajax("https://api.github.com/repos/wyqbailey/wyqbailey.github.com/contents",
                 {
-                    crossDomain:true,dataType:jsonp,type:"get",
+                    crossDomain:true,dataType:"jsonp",type:"get",
                     success:function(data){
                        alert(data);
                     }
